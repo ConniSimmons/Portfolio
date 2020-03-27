@@ -1,0 +1,21 @@
+
+body {
+    margin: 10;
+    padding: 10;
+    color: #000;
+    font-size: 16px;
+    
+}
+
+main {
+    padding: 1em;
+
+}
+header {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #000;
+}
