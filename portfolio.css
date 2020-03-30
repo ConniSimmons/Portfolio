@@ -2,9 +2,10 @@
 body {
     margin: 10;
     padding: 10;
-    color: #000;
+    color: rgb(216, 209, 209);
     font-size: 16px;
-    background-color: ;
+    background: rgb(163,111,116);
+background: radial-gradient(circle, rgba(163,111,116,1) 24%, rgba(127,91,100,1) 51%, rgba(105,79,90,1) 66%, rgba(92,72,84,1) 74%, rgba(87,69,82,1) 77%, rgba(83,67,80,1) 79%, rgba(80,65,79,1) 81%, rgba(78,64,78,1) 82%, rgba(69,60,74,1) 87%);
 }
 
 main {
@@ -19,6 +20,7 @@ header {
 footer {
     border-top: 1px solid #000;
 }
+
   /* Place the navbar at the bottom of the page, and make it stick */
   .navbar {
     background-color: #2b142e;
