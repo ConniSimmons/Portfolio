@@ -80,10 +80,7 @@ h1{
     100% {transform: translateX(200%)}
 }
 
-
-
-
-/* Style inputs with type="text", select elements and textareas */
+/* FORM - Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 10px; /* Some padding */ 
@@ -107,7 +104,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #ffe366;
+    background-color: #e2bd78;
   }
   
   /* Add a background color and some padding around the form */
@@ -121,7 +118,7 @@ input[type=text], select, textarea {
   }
 
      /* Place the navbar at the bottom of the page, and make it stick */
-.navbar {
+  .navbar {
     background-color: white;
     overflow: hidden;
     position: fixed;
@@ -151,4 +148,33 @@ input[type=text], select, textarea {
   .navbar a.active {
     background-color: #d48686;
     color: white;
+  }
+
+  /* Style all font awesome icons */
+  .navbar.fa {
+    padding: 20px;
+    font-size: 30px;
+    length: 48px;
+    width: 48px;
+    text-align: center;
+    text-decoration: none;
+  }
+     
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .navbar .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  /* Git */
+  .navbar .fa-git-square {
+    color: black;
+  }
+  /* Linkedin */
+  .navbar .fa-linkedin {
+      background: #2867B2
+  }
+  /* youtube */
+  .navbar .fa-youtube {
+      background: red
   }

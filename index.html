@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html>
-<header>
-    <title>Conni's Landing Page</title>
-    <link rel="stylesheet" href="landing-style.css" />
-        </style>
+    <head>
+        <title>Conni's Landing Page</title>
+        <link rel="stylesheet" href="landing-style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
         <script src="landing.js"></script>
-</header>
-<body>
- 
-    <h1>My name is Conni Simmons. <br>
-        Shall we make your site a sight to see?</h1>
-    
-        <div class="navbar">
-            <a href="index.html" class="active">Home</a>
-            <a href="portfolio.html">Resume</a>
-            <a href="contact.html">Contact</a>
-          </div>
-    
+    </head>
+    <header>
+        <h1>My name is Conni Simmons. <br>
+            Shall we make your site a sight to see?</h1>
+        </header>
+    <body>
+<!-- animated background -->
     <canvas id="sakura"></canvas>
         <div class="btnbg"></div>
-        </div>
-        
-        <!-- sakura shader -->
+                <!-- sakura shader -->
         <script id="sakura_point_vsh" type="x-shader/x_vertex">
         uniform mat4 uProjection;
         uniform mat4 uModelview;
@@ -307,17 +301,16 @@
             gl_FragColor.a = 1.0;
         }
         </script>
-    
-    
-    
-</body>
+    </body>
 <footer>
-    
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="portfolio.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://www.linkedin.com/in/conni-eisenhauer-589a6b82"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/Conniola"><i class="fa fa-facebook"></i></a>
+        <a href="https://github.com/ConniSimmons"><i class="fa fa-git-square icon-large"></i></a>
+        <a href="https://www.youtube.com/channel/UC_orB6MTqfUbqzs-XWQZq2A/"><i class="fa fa-youtube"></i></a>
+    </div>
 </footer>
-
-
-
-
-
-
 </html>
