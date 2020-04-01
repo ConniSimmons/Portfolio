@@ -4,8 +4,7 @@
   header {
     text-align: center;
     color: rgb(216, 211, 211);
-    max-resolution: 20px;
-    padding: 0px;
+    padding: 10px;
     line-height: 2px;
   }
   h1 {
@@ -13,8 +12,8 @@
     font
   }
   body {
-    margin: 10;
-    padding: 0;
+    margin-bottom: 20px;
+    padding: 0px;
     color: 55426b;
     font-size: 16px;
     background: rgb(163,111,116);
@@ -45,20 +44,23 @@
     margin-bottom: 5px;
   }
   ul{
-    width: auto;
+    width: m-content;
     margin-bottom: 10px;
     overflow:hidden;
   }
   li{
-    line-height:1.5em;
+    line-height: 1.5em;
     float:left;
+     }
+  #single li {
+    margin-right: 40px;
   }
   #double li  { 
     width:50%;
   } 
-  <span class="code-comment">/* 2 col */</span>
-
-  footer {  }
+  footer {
+    margin-top: 10px;
+  }
 
 /* Place the navbar at the bottom of the page, and make it stick */
   .navbar {
